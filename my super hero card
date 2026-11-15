@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>my super hero card</title>
+        <style>
+
+            /*typography - font,size,weight, color for whole page */
+            body {
+                   background-color:darkblue;
+                color: white;
+                font-family: arial, sans-serif;
+            }
+
+           /*typography + text shawdow - big bold title with an orange shawdow*/
+            .hero name {
+                   font size : 60px;
+                font weigth : bold;
+                color : yellow;
+                text-shadow : 3px 3px orange;
+            }
+
+            /*typography + text tranformastion - tagline becomes title case*/
+            tagline {
+                     font-style: italic;
+                    color : lightblue
+                    text-tranform : capitalaizs
+            }
+
+            /*text-tranformastion + text-decoration - sections headion in CAPS with underline*/
+            .label {
+                     text-tranform : uppercase
+                     text-decoration : underline
+                     color : coral
+            }
+
+            /*typography - power stand out bold green */
+            .power {
+                font-weight : bold; 
+                color : lightgreen
+            }
+
+            /*text decorations - weekness are crossed out */
+            .weekness {
+                text-decorations : line throuh
+                color : gray
+            }
